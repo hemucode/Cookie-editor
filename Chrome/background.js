@@ -2,7 +2,7 @@
 (function () {
   var d;
   const l = chrome.runtime && chrome.runtime.id,
-    m = chrome.runtime.getURL("manager.html"),
+    m = chrome.runtime.getURL("data/manager.html"),
     g = Date.now(),
     n = 163104834E4 > g ? !0 : !1,
     c = function (a) {

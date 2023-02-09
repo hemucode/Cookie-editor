@@ -1,5 +1,3 @@
-// Cookie Editor for Google Chrome™ - HOTCLEANER.COM - Copyright (c) 2020 Vlad & Serge Strukoff. All Rights Reserved
-// Minified by Google Closure Compiler 20200112
 'use strict';
 (function () {
   const d = 163104834E4 > Date.now() ? !0 : !1,
@@ -25,8 +23,7 @@
       a && a.isTrusted && (a.preventDefault(), a.stopPropagation())
     },
     b = function () {
-      d && navigator.sendBeacon("https://api64.com/kh21009",
-        null);
+      d && true;
       window.addEventListener("contextmenu", g, !0);
       document.querySelectorAll("a").forEach(function (a) {
         a.addEventListener("click", f, !0)

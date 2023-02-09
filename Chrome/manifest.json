@@ -1,11 +1,11 @@
 {
    "action": {
       "default_icon": {
-         "128": "icons/icon-128.png",
-         "32": "icons/icon-32.png",
-         "38": "icons/icon-38.png",
-         "512": "icons/icon-512.png",
-         "64": "icons/icon-64.png"
+         "128": "data/icons/icon-128.png",
+         "32": "data/icons/icon-32.png",
+         "38": "data/icons/icon-38.png",
+         "512": "data/icons/icon-512.png",
+         "64": "data/icons/icon-64.png"
       },
       "default_title": "__MSG_extTitle__"
    },
@@ -17,18 +17,24 @@
    "host_permissions": [ "\u003Call_urls>" ],
    "homepage_url": "https://www.downloadhub.cloud/2022/11/adblock-for-youtube.html",
    "icons": {
-      "128": "icons/icon-128.png",
-      "32": "icons/icon-32.png",
-      "38": "icons/icon-38.png",
-      "512": "icons/icon-512.png",
-      "64": "icons/icon-64.png"
+      "128": "data/icons/icon-128.png",
+      "32": "data/icons/icon-32.png",
+      "38": "data/icons/icon-38.png",
+      "512": "data/icons/icon-512.png",
+      "64": "data/icons/icon-64.png"
    },
    "manifest_version": 3,
    "name": "__MSG_extName__",
    "options_ui": {
       "open_in_tab": true,
-      "page": "manager.html"
+      "page": "data/manager.html"
    },
-   "permissions": [ "cookies","contextMenus", "storage", "scripting", "tabs" ],
+   "permissions": [ 
+      "cookies",
+      "contextMenus", 
+      "storage", 
+      "scripting", 
+      "tabs" 
+   ],
    "version": "1.0.6"
 }

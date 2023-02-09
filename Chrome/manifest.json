@@ -1,28 +1,27 @@
 {
-   "action": {
-      "default_icon": {
-            "128": "data/icons/icon-128.png",
-            "64": "data/icons/icon-64.png",
-            "32": "data/icons/icon-32.png",
-            "38": "data/icons/icon-38.png",
-            "512": "data/icons/icon-512.png"
-   },
-      },
-      "default_popup": "interface/popup/cookie-list.html",
-      "default_title": "Cookie-Editor"
-   },
    "background": {
       "service_worker": "background.js"
+   },
+   "action": {
+      "default_icon": {
+            "128": "icons/icon-128.png",
+            "64": "icons/icon-64.png",
+            "32": "icons/icon-32.png",
+            "38": "icons/icon-38.png",
+            "512": "icons/icon-512.png"
+      },
+      "default_popup": "interface/popup/index.html?popup",
+      "default_title": "Cookie-Editor"
    },
    "devtools_page": "interface/devtools/devtool.html",
    "homepage_url": "https://www.downloadhub.cloud/2022/09/sponsorblock-for-facebook.html",
    "description": "You can quickly create, edit, and delete cookies without leaving your tab with the help of the straightforward yet effective Cookie Editor.",
    "icons": {
-      "128": "data/icons/icon-128.png",
-      "64": "data/icons/icon-64.png",
-      "32": "data/icons/icon-32.png",
-      "38": "data/icons/icon-38.png",
-      "512": "data/icons/icon-512.png"
+      "128": "icons/icon-128.png",
+      "64": "icons/icon-64.png",
+      "32": "icons/icon-32.png",
+      "38": "icons/icon-38.png",
+      "512": "icons/icon-512.png"
    },
    "host_permissions": [ "\u003Call_urls>" ],
    "manifest_version": 3,

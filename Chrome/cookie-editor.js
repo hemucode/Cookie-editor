@@ -15,9 +15,9 @@
     isFirefoxAndroid(function(response) {
         const popupOptions = {};
         if (response) {
-            popupOptions.popup = '/interface/popup-android/cookie-list.html';
+            popupOptions.popup = '/interface/popup-android/index.html';
         } else {
-            popupOptions.popup = '/interface/popup/cookie-list.html';
+            popupOptions.popup = '/interface/popup/index.html';
         }
 		browserDetector.getApi().browserAction.setPopup(popupOptions);
     });

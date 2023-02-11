@@ -259,10 +259,6 @@
           if (d) {
             for (var c = [], f = 0; f < b; f++) c.push(a[f].parentElement.cprop);
             c = JSON.stringify(c);
-            J(c, d, 10, function (a) {
-              I('data:application/json;utf-8,{"url":"https://www.hotcleaner.com/cookie-editor/cookie-manager.html","version":2,"data":"' +
-                a + '"}', "cookies.json")
-            })
           }
         };
       0 < b && z("Export Cookies", "Please enter a password which will be used to encrypt or decrypt cookies. Only someone knowing this password can access and use cookies. Please note: we cannot recover your password if you lose it, so please ensure you keep it in a safe place.", "Export", "Cancel", c)
@@ -565,10 +561,10 @@
       });
       var a = document.createElement("link");
       a.rel = "stylesheet";
-      a.href = "css/editor.css";
+      a.href = "css/editor_pro.css";
       h.appendChild(a);
       a = document.createElement("div");
-      a.className = "__editor";
+      a.className = "__editor_pro";
       h.appendChild(a);
       var b = document.createElement("div");
       b.className = "__lbox";
@@ -743,7 +739,7 @@
           }
         ]);
         a.addEventListener("click", X, !1);
-        h.querySelector(".__editor").appendChild(a)
+        h.querySelector(".__editor_pro").appendChild(a)
       })
     },
     G = function () {

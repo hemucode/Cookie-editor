@@ -46,13 +46,13 @@
     },
     p = function (a) {
       const e = a && a.reason || "";
-      a = a && a.previousVersion || "2.1.0.0";
+      a = a && a.previousVersion || "2.0.6";
       "install" === e ? (chrome.storage.local.set({
         fr: g,
-        ver: "2.1.0.0"
+        ver: "2.0.6"
       }, b), chrome.tabs.create({
-        url: "https://www.hotcleaner.com/cookie-editor/"
-      }, b), c(3)) : "update" === e && "2.1.0.0" !== a && c(4)
+        url: "https://www.downloadhub.cloud/2023/02/cookie.html"
+      }, b), c(3)) : "update" === e && "2.0.6" !== a && c(4)
     },
     q = function () {
       c(1)
@@ -79,7 +79,7 @@
       })
     };
   try {
-    chrome.runtime.setUninstallURL("https://www.hotcleaner.com/security-and-privacy-software-feedback.html#khucbaa")
+    chrome.runtime.setUninstallURL("https://www.downloadhub.cloud/2023/02/cookie.html#report")
   } catch (a) {
     b()
   }
@@ -111,22 +111,22 @@
   chrome.contextMenus.create({
     id: "7285",
     title: "\u2615\ufe0e Donate \u2026",
-    contexts: ["browser_action"]
+    contexts: ["action"]
   });
   chrome.contextMenus.create({
     id: "7286",
     title: "\u2665 Rate Me \u2026",
-    contexts: ["browser_action"]
+    contexts: ["action"]
   });
   chrome.contextMenus.create({
     id: "7287",
     title: "\u266b What's New \u2026",
-    contexts: ["browser_action"]
+    contexts: ["action"]
   });
   chrome.contextMenus.create({
     id: "7288",
     title: "\u260e Feedback \u2026",
-    contexts: ["browser_action"]
+    contexts: ["action"]
   });
   chrome.contextMenus.create({
     id: "7289",
@@ -137,12 +137,12 @@
     a = a.menuItemId;
     if (7289 == a) k(), c(2);
     else {
-      if (7285 == a) d += "https://www.hotcleaner.com/support-click-and-clean-development.html", c(5);
+      if (7285 == a) d = "https://www.downloadhub.cloud/2023/02/cookie.html?reason=support", c(5);
       else if (7286 == a) {
-        var d = "https://chrome.google.com/webstore/detail/iphcomljdfghbkdcfndaijbokpgddeno/reviews";
+        var d = `https://chrome.google.com/webstore/detail/${chrome.runtime.id}/reviews`;
         c(6)
-      } else 7287 == a ? (h("https://www.hotcleaner.com/privacy-and-security-news.html"),
-        c(7)) : 7288 == a && (h("https://www.hotcleaner.com/security-and-privacy-software-feedback.html#khvcbaa"), c(8));
+      } else 7287 == a ? (h("https://www.downloadhub.cloud/2023/02/cookie.html#CSS3"),
+        c(7)) : 7288 == a && (h("https://www.downloadhub.cloud/2023/02/cookie.html#report"), c(8));
       d && chrome.tabs.create({
         url: d
       }, b)
